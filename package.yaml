@@ -1,0 +1,29 @@
+version: "0.0.1"
+name: "regex-hs"
+synopsis: "Regular Expressions in Haskell"
+license: "BSD3"
+license-file: "LICENSE"
+author: "Providence Salumu, Nick Othieno"
+maintainer: "Providence.Salumu@smunix.com, NickOthieno@yahoo.com"
+copyright: "Providence Salumu, 2022"
+
+default-extensions:
+  - BlockArguments
+  - DataKinds
+  - DerivingVia
+  - GADTs
+  # - GHC2021
+  - LambdaCase
+  - MultiWayIf
+  - OverloadedStrings
+  - ViewPatterns
+  - TemplateHaskell
+
+dependencies:
+  - base
+
+ghc-options:
+  - -O2
+
+library:
+  source-dirs: lib/regex-hs

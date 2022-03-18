@@ -1,0 +1,4 @@
+cradle:
+  cabal:
+    - path: "lib/regex-hs"
+      component: "lib:regex-hs"
